@@ -1,0 +1,16 @@
+invoice_id,vendor,service,amount_pkr,invoice_date,due_date,status,contact_email
+INV-101,PixelWorks Studio,Monthly design retainer,85000,2026-09-01,2026-09-30,paid,accounts@pixelworks.example
+INV-102,CloudNest Hosting,Cloud hosting Q3,42000,2026-09-05,2026-10-05,paid,billing@cloudnest.example
+INV-103,PixelWorks Studio,Brand asset refresh,60000,2026-09-20,2026-10-20,unpaid,accounts@pixelworks.example
+INV-104,SwiftCourier Logistics,Client delivery runs,38500,2026-10-01,2026-10-15,unpaid,finance@swiftcourier.example
+INV-105,OfficeHub Supplies,Office supplies Oct,27400,2026-10-03,2026-10-18,unpaid,sales@officehub.example
+INV-106,DataBridge Analytics,Reporting dashboard build,120000,2026-10-05,2026-11-04,unpaid,hello@databridge.example
+INV-107,SwiftCourier Logistics,Urgent same-day delivery,15200,2026-10-10,2026-10-24,unpaid,finance@swiftcourier.example
+INV-108,CloudNest Hosting,Cloud hosting Q4,45000,2026-10-12,2026-11-11,unpaid,billing@cloudnest.example
+INV-109,PixelWorks Studio,Social media creatives,48000,2026-10-15,2026-11-14,unpaid,accounts@pixelworks.example
+INV-110,LegalEase Consultants,Contract review,95000,2026-08-15,2026-09-14,overdue,legal@legalease.example
+INV-111,OfficeHub Supplies,Printing and stationery,19800,2026-08-28,2026-09-27,overdue,sales@officehub.example
+INV-112,DataBridge Analytics,Data cleanup sprint,75000,2026-09-10,2026-10-10,overdue,hello@databridge.example
+INV-113,SwiftCourier Logistics,Monthly delivery contract,64000,2026-10-20,2026-11-19,unpaid,finance@swiftcourier.example
+INV-114,CloudNest Hosting,Domain renewals,12500,2026-10-25,2026-11-24,unpaid,billing@cloudnest.example
+INV-115,LegalEase Consultants,NDA drafting,30000,2026-10-28,2026-11-27,unpaid,legal@legalease.example

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Vendor Invoice Aging Report — 2026-11-11</title>
+<style>
+body { font-family: Arial, sans-serif; max-width: 820px; margin: 2rem auto; color: #222; }
+h1 { font-size: 1.5rem; } h2 { font-size: 1.15rem; margin-top: 1.8rem; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #ccc; padding: 6px 10px; text-align: left; }
+th { background: #f0f0f0; }
+.kpi { display: flex; gap: 1rem; } .kpi div { background: #f7f7f7; padding: 0.8rem 1rem; border-radius: 6px; }
+.kpi b { font-size: 1.2rem; display: block; }
+</style></head><body>
+<h1>Vendor Invoice Aging Report</h1>
+<p>As of 2026-11-11 &middot; 15 invoices, PKR 777,400 billed in total.</p>
+<div class="kpi">
+<div>Outstanding<b>PKR 650,400</b></div>
+<div>Overdue (8 invoices)<b>PKR 450,900</b></div>
+<div>Paid<b>PKR 127,000</b></div>
+</div>
+<h2>Outstanding by ageing bucket</h2>
+<table><tr><th>Bucket</th><th>Amount</th></tr><tr><td>Current (not yet due)</td><td>PKR 199,500</td></tr>
+<tr><td>1-30 days overdue</td><td>PKR 261,100</td></tr>
+<tr><td>31-60 days overdue</td><td>PKR 189,800</td></tr>
+<tr><td>61-90 days overdue</td><td>PKR 0</td></tr>
+<tr><td>90+ days overdue</td><td>PKR 0</td></tr></table>
+<h2>Outstanding by vendor</h2>
+<table><tr><th>Vendor</th><th>Invoices</th><th>Amount</th></tr><tr><td>DataBridge Analytics</td><td>2</td><td>PKR 195,000</td></tr>
+<tr><td>LegalEase Consultants</td><td>2</td><td>PKR 125,000</td></tr>
+<tr><td>SwiftCourier Logistics</td><td>3</td><td>PKR 117,700</td></tr>
+<tr><td>PixelWorks Studio</td><td>2</td><td>PKR 108,000</td></tr>
+<tr><td>CloudNest Hosting</td><td>2</td><td>PKR 57,500</td></tr>
+<tr><td>OfficeHub Supplies</td><td>2</td><td>PKR 47,200</td></tr></table>
+<h2>Overdue invoices (worst first)</h2>
+<table><tr><th>Invoice</th><th>Vendor</th><th>Service</th><th>Amount</th><th>Due</th><th>Overdue by</th></tr><tr><td>INV-110</td><td>LegalEase Consultants</td><td>Contract review</td><td>PKR 95,000</td><td>2026-09-14</td><td>58 days</td></tr>
+<tr><td>INV-111</td><td>OfficeHub Supplies</td><td>Printing and stationery</td><td>PKR 19,800</td><td>2026-09-27</td><td>45 days</td></tr>
+<tr><td>INV-112</td><td>DataBridge Analytics</td><td>Data cleanup sprint</td><td>PKR 75,000</td><td>2026-10-10</td><td>32 days</td></tr>
+<tr><td>INV-104</td><td>SwiftCourier Logistics</td><td>Client delivery runs</td><td>PKR 38,500</td><td>2026-10-15</td><td>27 days</td></tr>
+<tr><td>INV-105</td><td>OfficeHub Supplies</td><td>Office supplies Oct</td><td>PKR 27,400</td><td>2026-10-18</td><td>24 days</td></tr>
+<tr><td>INV-103</td><td>PixelWorks Studio</td><td>Brand asset refresh</td><td>PKR 60,000</td><td>2026-10-20</td><td>22 days</td></tr>
+<tr><td>INV-107</td><td>SwiftCourier Logistics</td><td>Urgent same-day delivery</td><td>PKR 15,200</td><td>2026-10-24</td><td>18 days</td></tr>
+<tr><td>INV-106</td><td>DataBridge Analytics</td><td>Reporting dashboard build</td><td>PKR 120,000</td><td>2026-11-04</td><td>7 days</td></tr></table>
+</body></html>
